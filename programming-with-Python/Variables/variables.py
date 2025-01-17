@@ -9,7 +9,7 @@ print(price)
 
 # Types of basic variables
 # Strings: Text or characters
-name = "John"
+name = 'John'
 # Integers: Whole numbers
 age = 30
 # Floats: Decimal numbers

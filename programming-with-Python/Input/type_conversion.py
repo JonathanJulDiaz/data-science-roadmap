@@ -2,7 +2,7 @@
 # Let's convert a string to an integer
 
 # The input() function returns a string
-birth_year = input("Birth year: ")
+birth_year = input('Birth year: ')
 
 # Let's print the type of the variable
 print(type(birth_year)) # It will print a <class 'str'> which means it is a string

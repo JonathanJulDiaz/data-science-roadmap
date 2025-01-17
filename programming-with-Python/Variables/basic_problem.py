@@ -9,12 +9,12 @@
 
 # Solution
 
-name = "John Doe"
+name = 'John Doe'
 age = 30
 temperature = 39.2
 has_insurance = True
 
-print("Patient Name:", name)
-print("Age:", age)
-print("Temperature(Celsius):", temperature)
-print("Has Insurance:", has_insurance)
+print('Patient Name:', name)
+print('Age:', age)
+print('Temperature(Celsius):', temperature)
+print('Has Insurance:', has_insurance)
