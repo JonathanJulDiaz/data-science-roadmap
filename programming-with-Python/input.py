@@ -7,3 +7,7 @@ name = input("Enter your name here: ")
 # using the + operator, which is the concatenation operator
 # usually used to combine short and simple strings
 print("Hello, " + name)
+
+# Let's try it out! But this time with a number
+age = input("Enter your age here: ")
+print(name + " is " + age + " years old")
