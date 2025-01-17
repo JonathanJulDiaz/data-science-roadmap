@@ -15,9 +15,8 @@ for i in range(10): # The for loop is used to repeat a block of code a certain n
     print(i)
 # And every time that the loop is repeated, the value of i will be increased by 1 automatically
 
-# We must have careful when using for loops
-# because if we don't set the range, the loop will run forever the same block of code,
-# and we don't want that
+# We must have careful when using loops because if we don't set the range,
+# the loop will run forever the same block of code, and we don't want that
 
 # Sometimes we want to repeat a block of code until inside the block code we have a condition
 # that is true, that is when we use break, which will break the loop
