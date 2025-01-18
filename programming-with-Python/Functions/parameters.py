@@ -15,8 +15,10 @@ print_hello("John") # This will print Hello, John
 def print_hello(name, age):
     print(f"Hello, {name}. You are {age} years old.")
 
+# And we can also define explicit arguments passed to the function
+print_hello(30, name="John")
 
-# We can use the function to return a value,
-# to do that we use the return keyword before the value
-def add(x, y):
-    return x + y # Here we return the sum of x and y
+# But note that we can't pass them in the wrong order,
+# always must pass the positional arguments first
+
+#print_hello(age = 30, "John") this will give an error
